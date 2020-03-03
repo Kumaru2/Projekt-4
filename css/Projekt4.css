@@ -2,3 +2,6 @@ body{
   background-color: #F0ecda;
   font-family: 'Spartan',serif;
 }
+@media only screen and (max-width: 600px){
+
+}
