@@ -209,16 +209,20 @@ top:0;
 }
 }
 /*Kontakt*/
+.h1{
+  font-family: 'palatino linotype';
+  color:#333333;
+}
 .send_button {
   box-shadow: 3px 4px 0px 0px #8a2a21;
-  background:linear-gradient(to bottom, #228B22 5%, #32CD32 100%);
+  background:linear-gradient(to bottom, #32CD32 5%, #228B22 100%);
   background-color:#c62d1f;
   border-radius:18px;
   border:1px solid #d02718;
   display:inline-block;
   cursor:pointer;
-  color:#ffffff;
-  font-family:Georgia;
+  color:#333333;
+  font-family: 'palatino linotype';
   font-size:17px;
   padding:7px 25px;
   text-shadow:0px 1px 0px #810e05;
@@ -237,10 +241,10 @@ top:0;
   display: inline-block;
 }
 .left {
-  font-family: "Georgia";
+font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-size: 120%;
-  color: #FFFFFF;
+  color: #333333;
   width: 30%;
   float: center;
   margin: 2%;
@@ -248,27 +252,27 @@ top:0;
 .leftarea {
   margin-top: 10%;
   margin-bottom: 30%;
-  font-family: "Georgia";
+font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-size: 120%;
-  color: #FFFFFF;
+  color: #333333;
   width: 50%;
   float: left;
 }
 .rightarea{
   margin-top: 10%;
   margin-bottom: 30%;
-   font-family: "Georgia";
+font-family: 'Open Sans', sans-serif;
   font-size: 120%;
-  color: #FFFFFF;
+  color: #333333;
   width: 50%;
   float: right;
 }
 .right {
-  font-family: "Georgia";
+font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 120%;
-  color: #FFFFFF;
+  color: #333333;
   width: 40%;
     float: right;
     width: 60%;
