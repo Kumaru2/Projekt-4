@@ -133,23 +133,23 @@ top:0;
   }
   header ul a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 5px;
     border-right: 1px solid #eaeef6;
     text-decoration: none;
     list-style-type: none;
     color: #333333;
-    width: 10%;
+    width: 12%;
     text-align: center;
     border: 1px solid #3eac6a;
     float: left;
-    margin-left: 3%;
+    margin-left: 2%;
     font-family: 'palatino linotype';
     transition-duration: 1s;
     transition-timing-function: ease;
   }
   header nav ul li {
     display: inline;
-    margin-left: 50px 0;
+    margin-left: 40px 0;
   }
   header ul {
     margin-top: 40px;
