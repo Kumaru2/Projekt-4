@@ -1,2 +1,2 @@
-# Projekt-4
+# projekt-4
 Kode for projekt 4 hjemmeside
