@@ -26,8 +26,8 @@
 
 .footer-social-icons ul li{
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
   margin: 0px 10px;
   border-radius: 100%;
   background: #3EAC6A;
@@ -35,11 +35,11 @@
 
 .footer-social-icons ul li a{
   color: #272727;
-  font-size: 40px;
+  font-size: 26px;
 }
 
 .footer-social-icons ul li a i{
-  line-height: 100px;
+  line-height: 40px;
 }
 
 .footer-menu-one{
@@ -59,7 +59,7 @@
    display: inline-block;
    margin: 0px 20px;
    color: #F0ECDA;
-   font-size: 24px;
+   font-size: 12px;
 }
 
 .fab{
