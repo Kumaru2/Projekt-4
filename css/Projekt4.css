@@ -122,6 +122,51 @@ transform: rotate(45deg);
 top:0;
 }
 /* NOTE: nav-bar ender her */
+}
 
-
+@media only screen and (min-width: 601px) {
+  .space {
+    height: 900px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  header ul a {
+    display: block;
+    padding: 20px 5px;
+    border-right: 1px solid #eaeef6;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333333;
+    width: 10%;
+    text-align: center;
+    border: 1px solid #3eac6a;
+    float: left;
+    margin-left: 3%;
+    font-family: 'palatino linotype';
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  header nav ul li {
+    display: inline;
+    margin-left: 50px 0;
+  }
+  header ul {
+    margin-top: 30px;
+  }
+  .logo {
+    float: left;
+    position: relative;
+    top: -20px;
+  }
+  nav {
+    height: 100px;
+  }
+  header ul a:hover{
+    background: #3eac6a;
+    color: #f0ecda;
+  }
+  header {
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0,.1);
+  }
 }
