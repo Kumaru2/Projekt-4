@@ -11,6 +11,11 @@ body{
   color: #f0ecda;
 }
 
+.semere-btn:hover {
+  border-color: #3eac6a;
+  background-color: #f0ecda;
+}
+
 .border {
   height: 2px;
   background: #333;
@@ -225,6 +230,7 @@ top:0;
 }
 .border {
   width: 90%;
+}
 }
 
 @media only screen and (min-width: 601px) {
