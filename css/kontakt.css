@@ -40,7 +40,7 @@ body{
     color: #3eac6a;
   }
   .adrk{
-    margin-top: .9em;
+    margin-top: 1.3em;
   }
   .odensek{
     padding-left: 1.4em;
@@ -54,8 +54,8 @@ body{
     text-align: center;
   }
 
-  .breakk {
-    color: #333;
+  .adrk, .tlfk, .emailk, .mfk, .loerk, .soenk {
+    padding-top: 1em;
   }
 
   .formk {
