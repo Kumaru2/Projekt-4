@@ -22,7 +22,8 @@ body {
 .udv-produkter, .oli-mal, .ak-mal {
   display: flex;
   justify-content: center;
-  font-size: 1em;
+  font-size: 1.5em;
+  font-family: palatino linotype;
 }
 .photo img {
   display: block;
