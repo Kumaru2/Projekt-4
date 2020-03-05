@@ -1,97 +1,64 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-body{
+
+body {
   background-color: #F0ecda;
-  font-family: 'Spartan',serif;
+  font-family: 'Spartan', serif;
 }
 
-
-@media only screen and (min-width: 601px) {
-  .space {
-    height: 900px;
-  }
-  .menu-btn {
-    display: none;
-  }
-  header ul a {
-    display: block;
-    padding: 10px 5px;
-    border-right: 1px solid #eaeef6;
-    text-decoration: none;
-    list-style-type: none;
-    color: #333333;
-    width: 12%;
-    text-align: center;
-    border: 1px solid #3eac6a;
-    float: left;
-    margin-left: 2%;
-    font-family: 'palatino linotype';
-    transition-duration: .5s;
-    transition-timing-function: ease;
-  }
-  header nav ul li {
-    display: inline;
-    margin-left: 40px 0;
-  }
-  header ul {
-    margin-top: 40px;
-  }
-  .logo {
-    float: left;
-    position: relative;
-    top: -20px;
-  }
-  nav {
-    height: 100px;
-  }
-  nav a {
-    margin-top: 10px;
-  }
-  header ul a:hover{
-    background: #3eac6a;
-    color: #f0ecda;
-  }
-  header {
-    border-bottom: 1px solid #3eac6a;
-  }
-}
+@media only screen and (max-width: 600px) {
 
 
-.produkter {
-display: flex;
-justify-content:center;
-font-family:  palatino linotype;
+
+.udv-pro .produkter {
+  display: flex;
+  justify-content: center;
+  font-family: palatino linotype;
+  font-size: 2em;
 }
 
 .udv-produkter, .oli-mal, .ak-mal {
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
+  font-family: palatino linotype;
+}
+.photo img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
-.photo {
-background-color: blue;
-padding: 30px;
-margin: 30px;
-height: 250px;
-}
 
 .border {
-    width: 90%;
-    height: 2px;
-    background: #333;
-    margin: 10px auto;
-    align-items: center;
-    justify-content: center;
-    cursor: default;
-    opacity: 70%;
-  }
-
-
-p{
-text-align: center;
-margin: 10px;
-padding: 10px;
-font-family: sans-serif;
+  width: 90%;
+  height: 2px;
+  background: #333;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  opacity: 70%;
 }
+
+h3 {
+  text-align: center;
+  font-size: 1.4em
+}
+
+p {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width: 601px)
