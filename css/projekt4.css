@@ -9,11 +9,14 @@ body{
   border-radius: 10px;
   text-decoration: none;
   color: #f0ecda;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+  border: solid 1px #3eac6a;
 }
 
 .semere-btn:hover {
-  border-color: #3eac6a;
   background-color: #f0ecda;
+  color: #333333;
 }
 
 .border {
