@@ -2,6 +2,16 @@ body{
   background-color: #F0ecda;
   font-family: 'Spartan',serif;
 }
+
+.border {
+  height: 2px;
+  background: #333;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  opacity: 70%;
+}
 @media only screen and (max-width: 600px){
 
   /* NOTE: nav-bar begynder her */
@@ -191,6 +201,8 @@ top:0;
   background-color: blue;
   opacity: 50%;
 }
+.border {
+  width: 90%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -241,4 +253,6 @@ top:0;
   header {
     border-bottom: 1px solid #3eac6a;
   }
+  .border {
+    width: 70%;
 }
