@@ -1,115 +1,70 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-body{
-  background-color: #F0ecda;
-}
 @media only screen and (max-width: 600px){
-  /*Kontakt*/
-  .h1k{
-    font-family: 'palatino linotype';
-    color:#333333;
-    text-align: center;
-    font-size: 2em;
-    margin-top: 1em;
-  }
-  .info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 2em;
-  }
-  .aebk{
-    font-family: 'palatino linotype';
-    color:#333333;
-  }
-  .h2aa {
-    font-size: 1.2em;
-  }
-  .leftarea {
-    margin-top: 10%;
-  font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    font-size: .9em;
-    color: #333333;
-    margin-left: 2em;
-  }
-  .leftarea .fas {
-    background: #F0ecda;
-    color: #3eac6a;
-  }
-  .adrk{
-    margin-top: .9em;
-  }
-  .odensek{
-    padding-left: 1.4em;
-  }
-  .rightarea{
-    margin-top: 10%;
-  font-family: 'Open Sans', sans-serif;
-    color: #333333;
-    margin-right: 2em;
-    align-content: flex-end;
-    text-align: center;
-  }
-
-  .breakk {
-    color: #333;
-  }
-
-  .formk {
-  font-family: 'Open Sans', sans-serif;
-    font-size: .9em;
-    color: #333333;
-    margin: 1.4em;
-    display: grid;
-    grid-template-columns: 100%;
-    text-align: center;
-  }
-
-  .navntk, .emailtk, .emnetk, .bedskedtk {
-    padding-top: .6em;
-  }
-
-  #textarea {
-    font-family: 'open sans';
-    font-size: .9em;
-  }
-
-  input, input[placeholder] {
-    text-align: center;
-    padding: .5em;
-  }
-
-  .send_button {
-    box-shadow: 3px 4px 0px 0px #8a2a21;
-    background:linear-gradient(to bottom, #32CD32 5%, #228B22 100%);
-    background-color:#c62d1f;
-    border-radius:18px;
-    border:1px solid #d02718;
-    display:inline-block;
-    cursor:pointer;
-    color:#333333;
-    font-family: 'palatino linotype';
-    font-size:17px;
-    padding:7px 25px;
-    text-shadow:0px 1px 0px #810e05;
-  }
-  .send_button:hover {
-    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-    background-color:#f24437;
-  }
-  .send_button:active {
-    position:relative;
-    top:1px;
-  }
-
-
+.h1{
+  font-family: 'palatino linotype';
+  color:#333333;
 }
-
-@media only screen and (min-width: 601px) {
-
+.send_button {
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background:linear-gradient(to bottom, #32CD32 5%, #228B22 100%);
+  background-color:#c62d1f;
+  border-radius:18px;
+  border:1px solid #d02718;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family: 'palatino linotype';
+  font-size:17px;
+  padding:7px 25px;
+  text-shadow:0px 1px 0px #810e05;
 }
-
+.send_button:hover {
+  background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  background-color:#f24437;
+}
+.send_button:active {
+  position:relative;
+  top:1px;
+}
+.contact {
+  padding-left: 2%;
+  margin-top: 2%;
+  position: inherit;
+  display: inline-block;
+}
+.left {
+  text-align: left;
+  font-size: 120%;
+  color: #333333;
+  width: 30%;
+  float: center;
+  margin: 2%;
+}
+.leftarea {
+  margin-top: 10%;
+  margin-bottom: 30%;
+  text-align: left;
+  font-size: 120%;
+  color: #333333;
+  width: 50%;
+  float: left;
+}
+.rightarea{
+  margin-top: 10%;
+  margin-bottom: 30%;
+  font-size: 120%;
+  color: #333333;
+  width: 50%;
+  float: right;
+}
+.right {
+  text-align: center;
+  font-size: 120%;
+  color: #333333;
+  width: 40%;
+    float: right;
+    width: 60%;
+}
+.map{
+  padding-left: 2%;
+}
 }
