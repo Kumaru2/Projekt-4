@@ -137,6 +137,9 @@ top:0;
   height: 400px;
   background-color: blue;
 }
+.values {
+  height: 400px;
+}
 .grid-circle {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -155,7 +158,34 @@ top:0;
 .kundeslide {
   position: relative;
   top: -400px;
-  left: -100%;
+  left: -90%;
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+  opacity: 50%;
+}
+.tubeslide {
+  position: relative;
+  top: -800px;
+  right: -90%;
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+  opacity: 50%;
+}
+.videnslide {
+  position: relative;
+  top: -1200px;
+  left: -90%;
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+  opacity: 50%;
+}
+.kvalitetslide {
+  position: relative;
+  top: -1600px;
+  right: -90%;
   width: 100%;
   height: 400px;
   background-color: blue;
