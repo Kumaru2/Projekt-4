@@ -1,4 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
+body{
+  background-color: #F0ecda;
+}
 @media only screen and (max-width: 600px){
   /*Kontakt*/
   .h1k{
@@ -89,54 +96,20 @@
     padding:7px 25px;
     text-shadow:0px 1px 0px #810e05;
   }
-.send_button:hover {
-  background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-  background-color:#f24437;
+  .send_button:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color:#f24437;
+  }
+  .send_button:active {
+    position:relative;
+    top:1px;
+  }
+
+
 }
-.send_button:active {
-  position:relative;
-  top:1px;
+
+@media only screen and (min-width: 601px) {
+
 }
-.contact {
-  padding-left: 2%;
-  margin-top: 2%;
-  position: inherit;
-  display: inline-block;
-}
-.left {
-  text-align: left;
-  font-size: 120%;
-  color: #333333;
-  width: 30%;
-  float: center;
-  margin: 2%;
-}
-.leftarea {
-  margin-top: 10%;
-  margin-bottom: 30%;
-  text-align: left;
-  font-size: 120%;
-  color: #333333;
-  width: 50%;
-  float: left;
-}
-.rightarea{
-  margin-top: 10%;
-  margin-bottom: 30%;
-  font-size: 120%;
-  color: #333333;
-  width: 50%;
-  float: right;
-}
-.right {
-  text-align: center;
-  font-size: 120%;
-  color: #333333;
-  width: 40%;
-    float: right;
-    width: 60%;
-}
-.map{
-  padding-left: 2%;
-}
+
 }
