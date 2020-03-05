@@ -66,6 +66,7 @@ body{
     display: grid;
     grid-template-columns: 100%;
     text-align: center;
+
   }
 
   .navntk, .emailtk, .emnetk, .bedskedtk {
@@ -83,28 +84,30 @@ body{
   }
 
   .send_button {
-    box-shadow: 3px 4px 0px 0px #8a2a21;
-    background:linear-gradient(to bottom, #32CD32 5%, #228B22 100%);
-    background-color:#c62d1f;
-    border-radius:18px;
-    border:1px solid #d02718;
-    display:inline-block;
+    background-color:#3eac6a;
+    border-radius:10px;
     cursor:pointer;
     color:#333333;
-    font-family: 'palatino linotype';
-    font-size:17px;
-    padding:7px 25px;
-    text-shadow:0px 1px 0px #810e05;
+    font-family: 'open sans';
+    font-size:0.9em;
+    padding: 1em 0em;
+    box-shadow: none;
+    margin-top: 1em;
+    margin-left: 25%;
+    width: 50%;
+    border-style: none;
+
   }
   .send_button:hover {
-    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-    background-color:#f24437;
-  }
-  .send_button:active {
-    position:relative;
-    top:1px;
+    background-color: #f0ecda;
+    border: 1px solid;
+    border-color: #3eac6a;
   }
 
+.mapwrapper {
+  display: grid;
+  padding: 1.4em;
+}
 
 }
 
