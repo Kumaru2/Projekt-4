@@ -8,6 +8,11 @@ body{
 }
 @media only screen and (max-width: 600px){
   /*Kontakt*/
+
+.headertiljs{
+  
+}
+
   .h1k{
     font-family: 'palatino linotype';
     color:#333333;
