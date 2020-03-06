@@ -5,6 +5,8 @@
 
 body{
   background-color: #F0ecda;
+  background-image: url('img/baggrundk.jpg');
+  z-index: 100;
 }
 @media only screen and (max-width: 600px){
   /*Kontakt*/
@@ -22,11 +24,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 2em;
-    background-image:url('img/splash23.gif');
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: #f0ecda;
-    background-position: calc(120% - 340px) calc(120% + 30px);
 
   }
   .aebk{
@@ -73,11 +70,6 @@ body{
   margin-left: 1.4em;
   margin-right: 1.4em;
   margin-bottom: 1.4em;
-  background-image: url('img/pate.gif');
-  background-repeat: no-repeat;
-  background-blend-mode: multiply;
-  background-color: #f0ecda;
-  background-position: calc(160% + 100px) calc(120% + 10px);
   }
 
   .formk {
@@ -151,12 +143,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 2em;
-    background-image:url('img/splash23.gif');
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: #f0ecda;
-    background-position: calc(100% - 710px) calc(100% + 10px);
-
   }
   .aebk{
     font-family: 'palatino linotype';
@@ -175,7 +161,6 @@ body{
     grid-column: 2/3;
   }
   .leftarea .fas {
-    background: #F0ecda;
     color: #3eac6a;
     font-size: 150%;
   }
@@ -193,11 +178,6 @@ body{
     align-content: flex-end;
     text-align: center;
     grid-column: 3/4;
-    background-image:url('img/abinickimagentasplat.png');
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: #f0ecda;
-
   }
 
   .adrk, .tlfk, .emailk, .mfk, .loerk, .soenk {
@@ -229,13 +209,15 @@ body{
     font-family: 'open sans';
     font-size: .9em;
     width: 100%;
+    opacity: 50%;
   }
 
-  input, input[placeholder] {
+    input[placeholder] {
     text-align: center;
     padding-top: .5em;
     padding-bottom: .5em;
     width: 100%;
+    opacity: 50%;
   }
 
   .send_button {
