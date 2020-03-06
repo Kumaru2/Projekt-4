@@ -8,22 +8,34 @@ body {
   font-family: 'Spartan', serif;
 }
 
+.border {
+  width: 90%;
+  height: 2px;
+  background: #333;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  opacity: 70%;
+}
+
 @media only screen and (max-width: 600px) {
-  .udv-pro .produkter {
+
+  #section1 .produkter {
     display: flex;
     justify-content: center;
     font-family: palatino linotype;
     font-size: 2em;
   }
 
-  .udv-produkter, .oli-mal, .ak-mal {
+  #section 1 .udv-produkter {
     display: flex;
     justify-content: center;
     font-size: 1.5em;
     font-family: palatino linotype;
   }
 
-  .photo img {
+  #section1 .photo img {
     display: block;
     width: 80%;
     margin-left: auto;
@@ -32,81 +44,184 @@ body {
     border-radius: 15px;
   }
 
-  .border {
-    width: 90%;
-    height: 2px;
-    background: #333;
-    margin: 10px auto;
-    align-items: center;
-    justify-content: center;
-    cursor: default;
-    opacity: 70%;
-  }
-
-  h3 {
+  #section1 h3 {
     text-align: center;
     font-size: 1.4em
   }
 
-  p {
+  #section1 p {
     text-align: center;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9em;
+    font-size: 0, 9 em;
     font-family: open sans;
   }
 }
 
+
+#section2 .oli-mal {
+  display: flex;
+  justify-content: center;
+  font-family: palatino linotype;
+  font-size: 2em;
+}
+
+#section2 .photo img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#section2 h3 {
+  text-align: center;
+  font-size: 1.4em
+}
+
+#section2 p {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 0, 9 em;
+  font-family: open sans;
+}
+
+#section3  .ak-mal{
+  display: flex;
+  justify-content: center;
+  font-family: palatino linotype;
+  font-size: 2em;
+}
+
+#section3 .photo img{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#section3 h3{
+  text-align: center;
+  font-size: 1.4em
+}
+
+#section3 p {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 0, 9 em;
+  font-family: open sans;
+}
+
 @media only screen and (min-width: 601px) {
-  .sec1, .produkter{
+  #section1 .produkter {
     display: flex;
     justify-content: center;
     font-family: palatino linotype;
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
-  .sec1, .udv-produkter {
+  #section 1 .udv-produkter {
     display: flex;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: palatino linotype;
   }
 
-  .sec1, .photo img {
+  #section1 .photo img {
     display: block;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     border-radius: 15px;
   }
 
-  .sec1 .border {
-    width: 90%;
-    height: 2px;
-    background: #333;
-    margin: 10px auto;
-    align-items: center;
-    justify-content: center;
-    cursor: default;
-    opacity: 70%;
+  #section1 h3 {
+    text-align: center;
+    font-size: 1.4em
   }
 
-  h3 {
+  #section1 p {
     text-align: center;
-    font-size: 1.2em;
-    font-family: palatino linotype;
-  }
-
-  p {
-    text-align: center;
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 0, 9 em;
     font-family: open sans;
   }
+}
+
+
+#section2 .oli-mal {
+  display: flex;
+  justify-content: center;
+  font-family: palatino linotype;
+  font-size: 2em;
+}
+
+#section2 .photo img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#section2 h3 {
+  text-align: center;
+  font-size: 1.4em
+}
+
+#section2 p {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 0, 9 em;
+  font-family: open sans;
+}
+
+#section3  .ak-mal{
+  display: flex;
+  justify-content: center;
+  font-family: palatino linotype;
+  font-size: 2em;
+}
+
+#section3 .photo img{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#section3 h3{
+  text-align: center;
+  font-size: 1.4em
+}
+
+#section3 p {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 0, 9 em;
+  font-family: open sans;
 }
