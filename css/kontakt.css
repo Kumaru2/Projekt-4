@@ -92,14 +92,14 @@ body{
     font-family: 'open sans';
     font-size: .9em;
     width: 100%;
-    opacity: 50%;
+    opacity: 99%;
   }
 
     input[placeholder] {
     text-align: center;
     padding: .5em;
     width: 100%;
-    opacity: 50%;
+    opacity: 99%;
 
 
   }
@@ -209,7 +209,7 @@ body{
     font-family: 'open sans';
     font-size: .9em;
     width: 100%;
-    opacity: 50%;
+    opacity: 99%;
   }
 
     input[placeholder] {
@@ -217,7 +217,7 @@ body{
     padding-top: .5em;
     padding-bottom: .5em;
     width: 100%;
-    opacity: 50%;
+    opacity: 99%;
   }
 
   .send_button {
