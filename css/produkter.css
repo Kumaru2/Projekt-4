@@ -20,8 +20,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
-  #section1 .produkter {
+  #section1 .produkter h1 {
     display: flex;
     justify-content: center;
     font-family: palatino linotype;
@@ -37,7 +36,7 @@ body {
 
   #section1 .photo img {
     display: block;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -55,72 +54,71 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    font-size: 1em;
+    font-family: open sans;
+  }
+
+  #section2 .oli-mal {
+    display: flex;
+    justify-content: center;
+    font-family: palatino linotype;
+    font-size: 2em;
+  }
+
+  #section2 .photo img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #section2 h3 {
+    text-align: center;
+    font-size: 1.4em
+  }
+
+  #section2 p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     font-size: 0, 9 em;
     font-family: open sans;
   }
-}
 
+  #section3 .ak-mal {
+    display: flex;
+    justify-content: center;
+    font-family: palatino linotype;
+    font-size: 2em;
+  }
 
-#section2 .oli-mal {
-  display: flex;
-  justify-content: center;
-  font-family: palatino linotype;
-  font-size: 2em;
-}
+  #section3 .photo img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+  }
 
-#section2 .photo img {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border-radius: 15px;
-}
+  #section3 h3 {
+    text-align: center;
+    font-size: 1.4em
+  }
 
-#section2 h3 {
-  text-align: center;
-  font-size: 1.4em
-}
-
-#section2 p {
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 0, 9 em;
-  font-family: open sans;
-}
-
-#section3  .ak-mal{
-  display: flex;
-  justify-content: center;
-  font-family: palatino linotype;
-  font-size: 2em;
-}
-
-#section3 .photo img{
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border-radius: 15px;
-}
-
-#section3 h3{
-  text-align: center;
-  font-size: 1.4em
-}
-
-#section3 p {
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 0, 9 em;
-  font-family: open sans;
+  #section3 p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 0, 9 em;
+    font-family: open sans;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -128,7 +126,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: palatino linotype;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   #section 1 .udv-produkter {
@@ -140,7 +138,7 @@ body {
 
   #section1 .photo img {
     display: block;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -161,67 +159,66 @@ body {
     font-size: 0, 9 em;
     font-family: open sans;
   }
-}
 
+  #section2 .oli-mal {
+    display: flex;
+    justify-content: center;
+    font-family: palatino linotype;
+    font-size: 2.5em;
+  }
 
-#section2 .oli-mal {
-  display: flex;
-  justify-content: center;
-  font-family: palatino linotype;
-  font-size: 2em;
-}
+  #section2 .photo img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+  }
 
-#section2 .photo img {
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border-radius: 15px;
-}
+  #section2 h3 {
+    text-align: center;
+    font-size: 1.4em
+  }
 
-#section2 h3 {
-  text-align: center;
-  font-size: 1.4em
-}
+  #section2 p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 0, 9 em;
+    font-family: open sans;
+  }
 
-#section2 p {
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 0, 9 em;
-  font-family: open sans;
-}
+  #section3 .ak-mal {
+    display: flex;
+    justify-content: center;
+    font-family: palatino linotype;
+    font-size: 2.5em;
+  }
 
-#section3  .ak-mal{
-  display: flex;
-  justify-content: center;
-  font-family: palatino linotype;
-  font-size: 2em;
-}
+  #section3 .photo img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+  }
 
-#section3 .photo img{
-  display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border-radius: 15px;
-}
+  #section3 h3 {
+    text-align: center;
+    font-size: 1.4em
+  }
 
-#section3 h3{
-  text-align: center;
-  font-size: 1.4em
-}
-
-#section3 p {
-  text-align: center;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  font-size: 0, 9 em;
-  font-family: open sans;
+  #section3 p {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 0, 9 em;
+    font-family: open sans;
+  }
 }
