@@ -401,9 +401,9 @@ font-family: 'Open Sans', sans-serif;
     height: 400px;
     background-color: green;
 }
-.title-img h1 {
-  position: relative;
-  top: 160px;
+.title-text {
+  position: absolute;
+  top: 310px;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
@@ -465,5 +465,12 @@ font-family: 'Open Sans', sans-serif;
 }
 .beskriv {
   margin: 30px 0;
+}
+.title-img {
+  overflow: hidden;
+}
+.title-img img {
+  position: relative;
+  width: 100%;
 }
 }
