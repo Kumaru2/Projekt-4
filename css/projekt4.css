@@ -30,6 +30,10 @@ body{
   opacity: 70%;
 }
 
+.display-none {
+  display: none;
+}
+
 .produkter-section, .blog-section, .event-section, .kontakt-section {
   width: 90%;
   margin: 50px 5%;
@@ -183,13 +187,22 @@ top:0;
 /* NOTE: nav-bar ender her */
 .title-img {
   width: 100%;
-  height: 400px;
+  height: 322px;
   background-color: green;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  top: -22px;
 }
 .title-img h1 {
   position: relative;
-  top: 160px;
-
+  top: -170px;
+}
+.web-title-img {
+  display: none;
+}
+.mobile-title-img {
+  width:100%;
 }
 .om-abinicki {
   width: 90%;
@@ -321,9 +334,6 @@ font-family: 'Open Sans', sans-serif;
 }
 }
 @media only screen and (min-width: 601px) {
-  .space {
-    height: 900px;
-  }
   .menu-btn {
     display: none;
   }
@@ -447,9 +457,6 @@ font-family: 'Open Sans', sans-serif;
   height: 300px;
   background-color: green;
 }
-.info {
-  display: none;
-}
 .kontakt-section {
   display: none;
 }
@@ -468,9 +475,13 @@ font-family: 'Open Sans', sans-serif;
 }
 .title-img {
   overflow: hidden;
+  z-index: -1;
 }
 .title-img img {
   position: relative;
   width: 100%;
+}
+.mobile-title-img {
+  display: none;
 }
 }
