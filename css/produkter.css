@@ -50,7 +50,7 @@ body {
 
   #section1 p {
     text-align: center;
-    width: 80;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -96,7 +96,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9 em;
+    font-size: 0.9em;
     font-family: open sans;
   }
 
@@ -127,7 +127,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9 em;
+    font-size: 0.9em;
     font-family: open sans;
   }
 
@@ -175,13 +175,13 @@ body {
     padding:25px;
     width:200px;
     height:200px;
-    font-size:0,9em;
+    font-size:0.9em;
 border: solid #333;
     opacity: 80%;
 }
 #peekaboo p {
   text-align: center;
-  font-weight: open sans;
+  font-family:'open sans';
 }
 }
 
@@ -189,7 +189,7 @@ border: solid #333;
   #section1 .produkter {
     display: flex;
     justify-content: center;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     font-size: 2.5em;
   }
 
@@ -197,7 +197,7 @@ border: solid #333;
     display: flex;
     justify-content: center;
     font-size: 1.5em;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
   }
 
   #section1 .photo img {
@@ -220,7 +220,7 @@ border: solid #333;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9 em;
+    font-size: 0.9em;
     font-family: open sans;
   }
 
@@ -238,7 +238,7 @@ border: solid #333;
   #section2 .oli-mal {
     display: flex;
     justify-content: center;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     font-size: 2.5em;
   }
 
@@ -262,14 +262,14 @@ border: solid #333;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9 em;
-    font-family: open sans;
+    font-size: 0.9em;
+    font-family: 'open sans';
   }
 
   #section3 .ak-mal {
     display: flex;
     justify-content: center;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     font-size: 2.5em;
   }
 
@@ -293,8 +293,8 @@ border: solid #333;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9em;
-    font-family: open sans;
+    font-size: 0.9em;
+    font-family: 'open sans';
   }
 
   #section3 .border_small{
@@ -307,7 +307,7 @@ border: solid #333;
     cursor: default;
     opacity: 70%;
   }
-  
+
   .scrollbtn {
     display: block;
     background-color: #3eac6a;
@@ -341,13 +341,12 @@ border: solid #333;
       padding:25px;
       width:300px;
       height:300px;
-      font-size:1.7em;
+      font-size:1.5em;
       border: solid #333;
       opacity: 80%;
-      background-image: url();
   }
   #peekaboo p {
     text-align: center;
-    font-weight: open sans;
+    font-family:'open sans';
   }
 }
