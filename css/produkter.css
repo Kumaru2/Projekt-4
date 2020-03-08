@@ -142,6 +142,22 @@ body {
   cursor: default;
   opacity: 70%;
 }
+#peekaboo{
+    position:fixed;
+    bottom:400px;
+    right:-352px;
+    background: #F0ecda;
+    padding:25px;
+    width:200px;
+    height:200px;
+    font-size:0,9em;
+border: solid #333;
+    opacity: 80%;
+}
+#peekaboo p {
+  text-align: center;
+  font-weight: open sans;
+}
 }
 
 @media only screen and (min-width: 601px) {
@@ -252,7 +268,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    font-size: 0, 9 em;
+    font-size: 0, 9em;
     font-family: open sans;
   }
 
@@ -265,5 +281,22 @@ body {
     justify-content: center;
     cursor: default;
     opacity: 70%;
+  }
+  #peekaboo{
+      position:fixed;
+      bottom:300px;
+      right:-352px;
+      background: #F0ecda;
+      padding:25px;
+      width:300px;
+      height:300px;
+      font-size:1.7em;
+      border: solid #333;
+      opacity: 80%;
+      background-image: url();
+  }
+  #peekaboo p {
+    text-align: center;
+    font-weight: open sans;
   }
 }
