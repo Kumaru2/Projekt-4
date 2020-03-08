@@ -30,10 +30,6 @@ body{
   opacity: 70%;
 }
 
-.display-none {
-  display: none;
-}
-
 .produkter-section, .blog-section, .event-section, .kontakt-section {
   width: 90%;
   margin: 50px 5%;
@@ -65,11 +61,63 @@ h3 {
   padding: 10px 0;
 }
 
+.values p {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.circle img {
+  margin-left: 50%;
+  position: relative;
+  left: -75px;
+}
+
+.img1 {
+  background-image: url(../img/brera_akryl.jpg);
+}
+.img2 {
+  background-image: url(../img/kridt.jpg);
+}
+.img3 {
+  background-image: url(../img/rembrandt_pro.jpg);
+}
+.img1, .img2, .img3 {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  top: 50%;
+  margin-top: -22px;
+  color: #fff;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.prev:hover, .next:hover {
+  color: #3eac6a;
+}
+
 @media only screen and (max-width: 600px){
 
   /* NOTE: nav-bar begynder her */
   .space {
     height: 900px;
+  }
+  .display-none-mobile {
+    display: none;
   }
   header{
   grid-area: header;
@@ -189,7 +237,6 @@ top:0;
 .title-img {
   width: 100%;
   height: 322px;
-  background-color: green;
   overflow: hidden;
   z-index: -1;
   position: relative;
@@ -197,7 +244,7 @@ top:0;
 }
 .title-img h1 {
   position: relative;
-  top: -170px;
+  top: -190px;
 }
 .web-title-img {
   display: none;
@@ -228,44 +275,64 @@ top:0;
   height: 200px;
 }
 .kunde {
-  background-color: green;
 }
 
 .kundeslide {
   position: relative;
   top: -400px;
-  left: -90%;
   width: 100%;
   height: 400px;
   background-color: blue;
-  opacity: 50%;
+  visibility: hidden;
+  opacity: 0%;
+  font-size: 1.5em;
+  padding-top: 40px;
+  transition-duration: 1s;
+}
+#kundeslide:target {
+  visibility: visible;
+  opacity: 100%;
 }
 .tubeslide {
   position: relative;
   top: -800px;
-  right: -90%;
   width: 100%;
   height: 400px;
   background-color: blue;
   opacity: 50%;
+  font-size: 1.5em;
+  padding-top: 40px;
+  visibility: hidden;
 }
 .videnslide {
   position: relative;
   top: -1200px;
-  left: -90%;
   width: 100%;
   height: 400px;
   background-color: blue;
   opacity: 50%;
+  font-size: 1.5em;
+  padding-top: 40px;
+  visibility: hidden;
 }
 .kvalitetslide {
   position: relative;
   top: -1600px;
-  right: -90%;
   width: 100%;
   height: 400px;
   background-color: blue;
   opacity: 50%;
+  font-size: 1.5em;
+  padding-top: 40px;
+  visibility: hidden;
+}
+.grid-web-content p {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.values-border {
+  margin-top: 70px;
 }
 .border {
   width: 90%;
@@ -273,7 +340,7 @@ top:0;
 
 /* NOTE: sections starter her */
 .beskriv {
-  margin-top: 5px;
+  margin-top: 25px;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -331,7 +398,7 @@ font-family: 'Open Sans', sans-serif;
   background-color: green;
 }
 .blog-section-web {
-  visibility: hidden;
+  display: none;
 }
 }
 @media only screen and (min-width: 601px) {
@@ -389,6 +456,7 @@ font-family: 'Open Sans', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
     grid-column-gap: 10px;
+    justify-content: center;
   }
   .grid-web-cont {
     display: grid;
@@ -404,7 +472,7 @@ font-family: 'Open Sans', sans-serif;
     grid-row: 1;
   }
   .kundeslide, .tubeslide, .videnslide, .kvalitetslide {
-    height: 300px;
+    height: 250px;
     background-color: #ffffff;
   }
   .title-img {
@@ -420,21 +488,24 @@ font-family: 'Open Sans', sans-serif;
   margin-right: 25%;
 }
 .om-abinicki {
-  visibility: hidden;
+  display: none;
 }
 .om-border {
-  visibility: hidden;
+  display: none;
 }
 .slidep, .slidee{
   height: 400px;
   width: 100%;
   background-color: green;
 }
+.img1, .img2, .img3 {
+  height: 400px;
+}
 .eventimg {
-  visibility: hidden;
+  display: none;
 }
 .blog-section {
-  visibility: hidden;
+  display: none;
   display: none;
   margin: 0;
   padding: 0;
@@ -447,7 +518,7 @@ font-family: 'Open Sans', sans-serif;
   width: 90%;
   grid-gap: 20px;
 }
-.blog-section-web {
+.blog-section-web, .values {
   margin-top: 50px;
   margin-bottom: 50px;
 }
