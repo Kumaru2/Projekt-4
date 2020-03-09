@@ -4,6 +4,22 @@
   text-decoration: none;
 }
 
+body {
+  background-image: url(img/splatter3yellow.jpg);
+  background-size: cover;
+}
+
+.headere {
+  background-image: url(img/abinickipastel.png);
+  background-repeat: no-repeat;
+}
+
+.kreaeventheader {
+    background-image: url(img/abinickipastel.png);
+    background-repeat: no-repeat;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     text-align: center;

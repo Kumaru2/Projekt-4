@@ -5,9 +5,10 @@
 }
 
 .headerp {
-  background-image: url(img/splatter3yellow.jpg);
-  background-size: cover;
-  background-position: left;
+  background-image: url(img/bluesplatter1.png);
+  background-size:cover;
+  background-position: auto;
+  background-repeat: no-repeat;
 }
 
 body {
