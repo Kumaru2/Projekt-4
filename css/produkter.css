@@ -4,6 +4,12 @@
   text-decoration: none;
 }
 
+.headerp {
+  background-image: url(img/splatter3yellow.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
 body {
   background-color: #F0ecda;
   font-family: 'open sans';
