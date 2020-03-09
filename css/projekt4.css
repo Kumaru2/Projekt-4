@@ -1,6 +1,7 @@
 body{
   background-color: #F0ecda;
   font-family: 'open sans',serif;
+  overflow-x: hidden;
 }
 
 .semere-btn {
@@ -34,6 +35,10 @@ body{
   width: 90%;
   margin: 50px 5%;
   text-align: center;
+}
+
+.slidep {
+  border-radius: 15px;
 }
 
 h1 {
@@ -86,8 +91,9 @@ h3 {
   width: 100%;
   height: 200px;
   background-size: cover;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
+  border-radius: 15px;
 
 }
 
@@ -282,12 +288,13 @@ top:0;
   top: -400px;
   width: 100%;
   height: 400px;
-  background-color: blue;
+  background-color: #ffffff;
   visibility: hidden;
   opacity: 0%;
   font-size: 1.5em;
   padding-top: 40px;
   transition-duration: 1s;
+  text-align: center;
 }
 #kundeslide:target {
   visibility: visible;
@@ -298,7 +305,7 @@ top:0;
   top: -800px;
   width: 100%;
   height: 400px;
-  background-color: blue;
+  background-color: #ffffff;
   opacity: 50%;
   font-size: 1.5em;
   padding-top: 40px;
@@ -309,7 +316,7 @@ top:0;
   top: -1200px;
   width: 100%;
   height: 400px;
-  background-color: blue;
+  background-color: #ffffff;
   opacity: 50%;
   font-size: 1.5em;
   padding-top: 40px;
@@ -320,7 +327,7 @@ top:0;
   top: -1600px;
   width: 100%;
   height: 400px;
-  background-color: blue;
+  background-color: #ffffff;
   opacity: 50%;
   font-size: 1.5em;
   padding-top: 40px;
@@ -396,9 +403,16 @@ font-family: 'Open Sans', sans-serif;
   width: 100%;
   height: 200px;
   background-color: green;
+  border-radius: 15px;
 }
 .blog-section-web {
   display: none;
+}
+.eventimg {
+  background-image: url(../img/rembrandt-palette.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 }
 @media only screen and (min-width: 601px) {
@@ -449,6 +463,9 @@ font-family: 'Open Sans', sans-serif;
   .border {
     width: 70%;
   }
+  .values .kundeslide a {
+    display: none;
+  }
   .grid-circle {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -470,10 +487,12 @@ font-family: 'Open Sans', sans-serif;
     height: 200px;
     background-color: #ffffff;
     grid-row: 1;
+    border-radius: 15px 15px 0 0;
   }
   .kundeslide, .tubeslide, .videnslide, .kvalitetslide {
     height: 250px;
     background-color: #ffffff;
+    border-radius: 0px 0px 15px 15px;
   }
   .title-img {
     width: 100%;
@@ -504,6 +523,9 @@ font-family: 'Open Sans', sans-serif;
 .eventimg {
   display: none;
 }
+.slidee {
+  background-image: url(../img/rembradt-palette.jpg);
+}
 .blog-section {
   display: none;
   display: none;
@@ -528,6 +550,7 @@ font-family: 'Open Sans', sans-serif;
 .blog1-img, .blog2-img, .blog3-img {
   height: 300px;
   background-color: green;
+  border-radius: 15px;
 }
 .kontakt-section {
   display: none;
@@ -555,5 +578,35 @@ font-family: 'Open Sans', sans-serif;
 }
 .mobile-title-img {
   display: none;
+}
+.slidee {
+  border-radius: 15px;
+  background-image: url(../img/rembrandt-palette.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.blog1-img, .blog2-img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+
+}
+.blog1-img {
+background-image: url(../img/Golden_akryl.jpg);
+}
+
+.blog2-img {
+background-image: url(../img/blue-akvarel.jpg);
+}
+.blog1-beskriv, .blog2-beskriv {
+  text-align: center;
+}
+
+.blog1-beskriv p, .blog2-beskriv p {
+  padding-bottom: 20px;
 }
 }
