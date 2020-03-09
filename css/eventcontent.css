@@ -18,8 +18,10 @@ body {
     background-image: url(img/abinickipastel.png);
     background-repeat: no-repeat;
   }
-}
 
+
+
+}
 @media only screen and (max-width: 600px) {
   h1 {
     text-align: center;
