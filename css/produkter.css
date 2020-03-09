@@ -1,11 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 
 body {
   background-color: #F0ecda;
-  font-family: 'Spartan', serif;
+  font-family: 'open sans';
 
 
 }
@@ -178,7 +179,7 @@ main {
 
 #peekaboo{
     position:fixed;
-    bottom:400px;
+    bottom: 300px;
     right:-352px;
     background: #F0ecda;
     padding:25px;
