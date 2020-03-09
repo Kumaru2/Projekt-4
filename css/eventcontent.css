@@ -76,7 +76,15 @@
     font-weight: bold;
   }
 
-  .imginterior2 {
+  .marmorering  {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+  }
+
+  .kreadag  {
     display: block;
     width: 80%;
     margin-right: auto;
@@ -216,7 +224,15 @@
     font-weight: bold;
   }
 
-  .imginterior2 {
+  .marmorering {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+  }
+
+  .kreadag {
     display: block;
     width: 70%;
     margin-right: auto;
