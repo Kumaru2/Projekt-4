@@ -3,12 +3,29 @@
   padding: 0px;
   text-decoration: none;
 }
+.bodyblog {
+  background-image: url(img/splat.gif);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ .headerblog {
+   background-image: url(img/greeny.png);
+   background-size:cover;
+ }
+
+ .baggrundblog{
+   background-image: url(img/splatter-nb-1.png);
+   background-repeat: no-repeat;
+ }
+
+
 
 @media only screen and (max-width: 600px) {
   h1 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
@@ -17,7 +34,7 @@
   h2 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.5em;
