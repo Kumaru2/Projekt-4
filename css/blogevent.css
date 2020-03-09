@@ -84,6 +84,12 @@
     padding-bottom: 10px;
   }
 
+  .iframewidth {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .iframe-container {
     position: relative;
     width: 100%;
@@ -215,6 +221,12 @@
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 10px;
+  }
+
+  .iframewidth {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .iframe-container {
