@@ -50,7 +50,7 @@
 	if(!$mail->send()) {
 		die('Beskeden kunne ikke sendes. Prøv igen senere.');
 	} else {
-		header("Location: /"); //"Location: kontakt.html"
+		header("Location: /kontakt.html"); //"Location: kontakt.html"
 	}
 
 ?>
