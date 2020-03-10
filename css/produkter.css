@@ -120,7 +120,7 @@ main {
   #section3 .ak-mal {
     display: flex;
     justify-content: center;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     font-size: 2em;
   }
 
@@ -145,7 +145,7 @@ main {
     margin-right: auto;
     padding: 10px;
     font-size: 0.9em;
-    font-family: open sans;
+    font-family: 'open sans';
   }
 
 
@@ -244,7 +244,7 @@ border: solid #333;
     margin-right: auto;
     padding: 10px;
     font-size: 0.9em;
-    font-family: open sans;
+    font-family: 'open sans';
   }
 
   #section1 .border_small{

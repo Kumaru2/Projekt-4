@@ -43,7 +43,7 @@
   h3 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.4em;
@@ -164,7 +164,7 @@
   h1 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 2.5em;
@@ -173,7 +173,7 @@
   h2 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.8em;
@@ -182,7 +182,7 @@
   h3 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.6em;

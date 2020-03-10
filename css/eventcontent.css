@@ -26,7 +26,7 @@ body {
   h1 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 2em;
@@ -35,7 +35,7 @@ body {
   h2 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.5em;
@@ -44,7 +44,7 @@ body {
   h3 {
     text-align: center;
     width: 80%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.4em;
@@ -174,7 +174,7 @@ body {
   h1 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 2.5em;
@@ -183,7 +183,7 @@ body {
   h2 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.8em;
@@ -192,7 +192,7 @@ body {
   h3 {
     text-align: center;
     width: 70%;
-    font-family: palatino linotype;
+    font-family: 'palatino linotype';
     margin-right: auto;
     margin-left: auto;
     font-size: 1.6em;

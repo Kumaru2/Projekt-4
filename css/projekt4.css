@@ -82,18 +82,18 @@ body{
 }
 
 h1 {
-  font-family: "palatino linotype";
+  font-family: 'palatino linotype';
   text-align: center;
 }
 
 h2 {
-  font-family: "palatino linotype";
+  font-family: 'palatino linotype';
   text-align: center;
   margin-bottom: 5px;
 }
 
 h3 {
-  font-family: "palatino linotype";
+  font-family: 'palatino linotype';
   text-align: center;
 }
 
